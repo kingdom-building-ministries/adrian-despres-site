@@ -1,0 +1,45 @@
+.slash-left-right:after, .solid-slash-left-right:after { /* Goes on the body tag */
+  content: '';
+  background-image: url('/img/layout/left-right.svg');
+  background-size: 2000px 100%;
+  background-position: top center;
+  position: absolute;
+  opacity: .4;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.slash-left-right:after {
+  z-index: -5;
+}
+
+.solid-slash-left-right:after {
+  z-index: -10;
+}
+
+.slashed-color-background, .slashed-image-background {
+  position: relative;
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.slashed-color-background:after {
+  background: darken($primary-color, 5%);
+  z-index: -11;
+}
+
+.slashed-image-background:after {
+  background-size: cover;
+  background-position: center;
+  background-color: #000;
+  z-index: -6;
+}

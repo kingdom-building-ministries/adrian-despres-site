@@ -1,0 +1,20 @@
+.booking {
+  &:after {
+    background-image: url('/img/booking/jason-praying-1.jpg');
+    background-position: center center;
+    }
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+.booking-bug-button {
+  position: absolute;
+  right: 9%;
+  bottom: -9%;
+  max-height: 200px;
+  max-width: 200px;
+  img {
+    border: none;
+  }
+}

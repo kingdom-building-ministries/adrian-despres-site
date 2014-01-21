@@ -1,0 +1,20 @@
+{% include header.html %}
+{% include title-banner.html %}
+
+<div class="image-row slashed-image-background form-image-row top-row {{ page.form-image-class }}">
+  <div class="row">
+    <div class="large-12 columns">
+      {{ content }}
+    </div>
+  </div>
+</div>
+
+<div class="color-row slashed-color-background bottom-row">
+  <div class="row">
+    <div class="large-12 columns">
+      <iframe class="form" src="{{ page.form-url }}"></iframe>
+    </div>
+  </div>
+</div>
+
+{% include footer.html %}

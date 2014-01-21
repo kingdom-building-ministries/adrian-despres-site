@@ -1,0 +1,15 @@
+.follow-up {
+  &:after {
+    background-image: url('/img/follow-up/follow-up.jpg');
+    background-position: right top;
+  }
+  color: white;
+  padding-top: 50px;
+  img {
+    border: none;
+  }
+}
+
+.training-ad-row {
+  text-align: center;
+}

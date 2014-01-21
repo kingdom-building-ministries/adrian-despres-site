@@ -1,0 +1,22 @@
+port: 4001
+name: "Jason Roe"
+description: "Jason Roe a KBM Speaker"
+future: false
+
+exclude:
+  - .gitignore
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - '#*#'
+
+permalink: pretty
+
+sass:
+  style: expanded
+  deploy_style: compressed
+
+markdown: redcarpet
+redcarpet:
+  extensions: [tables, lax_spacing, smart]

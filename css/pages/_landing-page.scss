@@ -1,0 +1,47 @@
+.jesus-rally {
+  &:after {
+    background-image: url('/img/ministries/jesus-rally.jpg');
+    background-position: center bottom;
+}
+  padding-top: 220px;
+  padding-bottom: 150px;
+  color: white;
+  h4 {
+  color: white;
+  text-align: justify;
+  font-weight: 300;
+  }
+  
+}
+
+.landing-page-color-row {
+  text-align: center;
+  img {
+    border: 10px solid $secondary-color;
+    border-radius: 5px;
+    background-color: white;
+  }
+}
+
+.resurrection {
+  &:after {
+    background-image: url('/img/ministries/resurrection.jpg');
+    background-position: center bottom;
+}
+  padding-top: 220px;
+  padding-bottom: 150px;
+  color: white;
+  h2 {
+  color: white;
+  }
+  
+}
+
+.landing-page-color-row {
+  text-align: center;
+  img {
+    border: 10px solid $secondary-color;
+    border-radius: 5px;
+    background-color: white;
+  }
+}

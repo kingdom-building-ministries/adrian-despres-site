@@ -1,0 +1,20 @@
+{% include header.html %}
+{% include title-banner.html %}
+{% assign sections = content | split:"<divider>" %}
+<div class="image-row slashed-image-background {{ page.landing-page-image-class }}">
+  <div class="row">
+    <div class="large-12 columns">
+      {{ sections[0] }}
+    </div>
+  </div>
+</div>
+
+<div class="color-row slashed-color-background landing-page-color-row bottom-row">
+  <div class="row">
+    <div class="large-12 columns">
+      {{ sections[1] }}
+    </div>
+  </div>
+</div>
+
+{% include footer.html %}

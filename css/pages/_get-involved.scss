@@ -1,0 +1,34 @@
+.bio {
+  &:after {
+    background-image: url('/img/get-involved/background.jpg');
+  }
+  padding-top: 100px;
+  padding-bottom: 0;
+  color: white;
+  img {
+    border: none;
+    margin: auto;
+    display: block;
+  }
+}
+
+.sign-up-row {
+  img {
+    margin: auto;
+    display: block;
+  }
+  h1{
+    text-align: center;
+  }
+}
+
+.get-involved-event-report {
+  h4 {
+    color: white;
+  }
+  @media #{$large} {
+    .audio-player {
+      margin-top: 0;
+    }
+  }
+}
