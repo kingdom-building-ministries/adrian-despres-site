@@ -1,6 +1,6 @@
 .booking {
   &:after {
-    background-image: url('/img/booking/jason-praying-1.jpg');
+    background-image: url('/img/booking/ad-bio.jpg');
     background-position: center center;
     }
   padding-top: 50px;
@@ -16,5 +16,29 @@
   max-width: 200px;
   img {
     border: none;
+  }
+}
+
+.message-grid {
+  color: black;
+  text-align: center;
+  padding-top: 20px;
+  position: relative;
+  &>li>div {
+      background-color: white;
+      &:hover .content {
+        visibility: visible;
+        opacity: 1;
+      }
+  }
+  .content {
+    visibility: hidden;
+    position: absolute;
+    bottom: -400px;
+    height: 400px;
+    background-color: rgba(255,255,255,0.8);
+    z-index: 1;
+    opacity: 0;
+    @include transition (all .3s ease-in-out);
   }
 }
