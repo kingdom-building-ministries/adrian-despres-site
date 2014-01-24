@@ -2,4 +2,4 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
 "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="left-right" viewBox="0 0 20 20" preserveAspectRatio="none"><polyline points="0,0 0,20 20,20 2,0" fill="#73000a"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="left-right" viewBox="0 0 20 20" preserveAspectRatio="none"><polyline points="0,0 0,20 15,20 8,0" fill="#73000a"/></svg>
